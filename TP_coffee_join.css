@@ -1,0 +1,57 @@
+
+#joinid{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.join_all{
+    text-align: center;
+    position:relative;   
+    width:100%;
+    height:1100px;
+    top: 100px;
+    margin-bottom:50px;
+}
+
+.join{
+    left: 50%;  
+    top:50%;
+    transform:translate(-50%,-50%);
+    position:relative;
+    width: 400px;
+    height: 100%;
+}  
+
+
+.checkbox{
+    font-size: 10px;
+    text-align: left;
+}
+
+.joinbutton{
+    background-color: black;
+    color: white;
+    width: 240px;
+    height: 54px;
+    margin-top: 50px;
+    border-radius:5px;
+    border:1px solid darkgrey;
+}
+
+
+.form-label{
+    width:300px;
+    text-align:left;
+    margin-right: 100px;
+}
+
+#Postal_code{
+flex-basis:200px;  
+}
+
+#blank{
+    width:5px;
+}
+.input-group>input{
+    border:1px solid #ced4da;
+}

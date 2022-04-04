@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title>
+    <!--글꼴-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jua&family=Noto+Sans+KR:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Inconsolata:wght@300&family=Jua&family=Noto+Sans+KR:wght@100;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="TP_coffee_maypage.css">
+    <link rel="stylesheet" href='TP_coffee_main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- top Area -->
+    <header class="top_wrap">
+        <!--logo(Button)-->
+        <nav class="logoArea">
+            <a href="TP_coffee_main.html">CIP
+            </a>    
+        </nav>
+
+        <!--menu list-->
+
+        <nav class='menu'>
+            <li><a href="TP_coffee_about.html">ABOUT COFFEE</a></li>
+            <li><a href="TP_coffee_cafe.html">CAFE</a></li>
+            <li><a href="TP_coffee_best.html">BEST</a></li>
+        </nav>
+        
+        <!--login Button-->
+        <nav class='sign' id='sign'>
+            <a href="TP_coffee_login.html">
+                <img src="sign.png" height=30px> 
+            </a>
+        </nav>
+
+    </header><!-- class(top_wrap) End -->
+
+
+    <!-- main page video section-->
+    <article>
+        <video width="100%"  muted autoplay loop>  
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </article>
+    <!--Banner Area Begin-->
+
+
+        <!--Middle Space-->
+    <section class="middle_wrap">
+        <div class="join_all">
+            <div class="join">
+                <h1 id="joinid" class="form-label">회원 정보</h1><br>
+        
+                <!-- 로그아웃 버튼 -->
+                <div class="inputLogout">
+                    <button type="button" class="btn btn-default btn-sm"><a href="https://www.naver.com/">로그아웃</a></button>
+                </div>
+        
+                <!-- 아이디 -->
+                <label for="basic-url" class="form-label">아이디*</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <!-- 이메일 -->
+                <label for="basic-url" class="form-label">이메일*</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+                <!-- 이름 -->
+                <label for="basic-url" class="form-label">이름*</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+        
+                <!-- 휴대폰번호 -->
+                <label for="basic-url" class="form-label">휴대폰 번호*</label>
+                <div class="input-group mb-3">
+                    <input type="tel" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+        
+        
+                <!-- 우편번호 조정중 -->
+                <div style="display: inline;" class="Postal_code">
+                    <label for="basic-url" class="form-label">우편번호</label>
+                    <div class="input-group mb-3">
+                        <input type="text" id="Postal_code" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <div id="aa"></div>
+                        <input type="button" class="form-control" value="검색" id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+                </div>
+
+                <!-- 주소 -->
+                <label for="basic-url" class="form-label">주소</label>
+                <div class="input-group mb-3"> 
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section><!-- Middle space end -->
+
+
+    <!--bottom_wrap-->
+    <footer class="bottom_wrap">
+        <hr class="two">
+
+        <div class='sns'>
+            <a href="https://naver.com">
+            <img src='facebook.png' height=30px> 
+            </a>
+            <a href="https://naver.com">
+            <img src='insta.png' height=30px>
+            </a>
+            <a href="https://naver.com">
+            <img src='email.png' height=30px>
+            </a>
+            <a href="https://naver.com">
+            <img src='youtube.png' height=30px>
+            </a>
+        </div>
+
+        <div class='introduction'>
+            <li id='introduction_1'>
+                상호명: (주)Coffee Introduce Platform | 대표: 휴먼2조 | 개인정보보호책임자: 휴먼2조 <br>
+                사업자등록번호: 123-45-678910 | 통신판매업신고번호: 제2022-경기수원-00000호<br>
+                사업장소재지: 경기 수원시 팔달구 테헤란로2길 27 패스트파이브 빌딩 9층 915호<br>
+            </li>
+
+            <li id='introduction2'>
+                주식회사 컨슈머브릿지는 전자상거래 등에서의 소비자보호에 관한 법률에 따른 통신판매중개자로서 중개하는 통신판매에 관하여서는 통신판매의 당사자가 아니며 상품의 주문, 배송 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
+            </li>
+        </div>
+
+    </footer> <!--bottom wrap end-->
+    <script>
+        var username=document.createElement('span')
+            // innerHTML은 해당 부분에 들어갈 내용 입력
+            username.innerHTML=localStorage.getItem('inputname')+"님";
+            // classList.add는 클래스명 추가시 입력
+            username.classList.add('userID')
+            // getElementById는 어떤 id에 추가할것인지를
+            // appendChild는 그곳에 어떤 것을 추가할 것인지를.
+            document.getElementById('sign').appendChild(username);
+    </script>
+</body>
+
+</html>

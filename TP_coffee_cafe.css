@@ -1,0 +1,128 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style : none;
+    text-decoration : none;
+    border-collapse : collapse;
+    margin : 0px;
+    padding : 0px;
+    color : #000;
+}
+
+.cafe_list {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cafe_coffee_img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.cafe {
+    width: 250px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;  
+}
+
+.cafe div {
+    font-weight: 800;
+}
+.new_line {
+    width: 100%;
+    clear: both;
+}
+h1 {
+    background-color: rgba(203, 214, 214, 0.205);
+    padding: 10px;
+    margin: 30px;
+    
+}
+.cafe_middle_wrap{
+    text-align:center;
+}
+#checkForm {
+    width: 700px;
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    padding-left: 30px;
+    border: 1px solid rgb(203, 206, 206);
+    border-radius: 10px;    
+}
+#checkForm>p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+#seoulBox>h1{
+    text-align:left;
+    color:white;
+    padding: top 10px;
+    background-color:indianred;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#gyeonggiBox>h1{
+    text-align:left;
+    color:white;
+    text-align:bottom; 
+    background-color:rgb(92, 150, 205); 
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 60px;
+
+}
+.form-check {
+    padding: 30px;
+    float: left;
+    text-align:center;
+    border-style:
+}
+
+@media screen and (max-width: 768px) {
+
+    .cafe_list {
+        width: 660px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cafe_coffee_img {
+        width: 200px;
+        height: 200px;
+    }
+    .cafe {
+        width: 200px;
+    }
+    .cafe div{
+        font-size: 10px;
+    }
+
+}
+.cafe_name{
+font-size:20px;
+color:darkblue; 
+}
+.cafe_address{
+    font-size:12px;
+    font-weight:normal;
+}
+.cafe_bean{
+    font-size:14px;
+    color:rgb(126, 2, 49);
+}
+.cafe_phone_number{
+    font-size:13px;
+    color:rgb(63, 62, 62);
+}
+.cafe > div{
+    margin-bottom:1px;
+    margin-top: 2px;
+}
